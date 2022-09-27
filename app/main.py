@@ -37,4 +37,3 @@ def predict(query_sentence, topk:int=5):
 	return df[["overview", 'original_title', 'genres']].iloc[topk_indices]     #df.columns, topk_indices,
 
 # print(predict("dog", topk=5))
-# # print(model)
