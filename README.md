@@ -16,3 +16,9 @@ After launch API we have to fill in some parameters.
 
 If all parameters are filled correctly, we will get responce like this:
 ![image](https://github.com/AmiranGozalishvili/Movies_Recommender_System/blob/main/resources/Fastapi%20prediction%20responce.png)
+
+# Steps of building recommender API
+  1. Loading data.
+  2. With help of Sentence Transformer encode sentences.
+  3. Store data to json format data frame.
+  4. Calculate cosine similarity indices between query sentence and stored data.
